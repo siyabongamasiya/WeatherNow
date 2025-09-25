@@ -1,0 +1,16 @@
+.notif-banner {
+  margin: 12px auto 0;
+  padding: 10px 12px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--border);
+}
+
+.notif-low { background: rgba(16, 185, 129, 0.12); border-color: #10b98133; }
+.notif-medium { background: rgba(245, 158, 11, 0.12); border-color: #f59e0b33; }
+.notif-high { background: rgba(239, 68, 68, 0.14); border-color: #ef444433; }
+
+.notif-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--primary); display: inline-block; }
+.notif-text { font-weight: 600; }

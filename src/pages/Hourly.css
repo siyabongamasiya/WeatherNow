@@ -1,0 +1,8 @@
+.hourly-scroll {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 8px 2px;
+}
+.hourly-scroll::-webkit-scrollbar { height: 8px; }
+.hourly-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 8px; }

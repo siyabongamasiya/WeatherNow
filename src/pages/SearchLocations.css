@@ -1,0 +1,7 @@
+.search-locs { display: grid; gap: 16px; }
+.saved { padding: 12px; }
+.saved h3 { margin: 0 0 8px; }
+.saved ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.saved li { display: flex; align-items: center; justify-content: space-between; padding: 8px; border: 1px solid var(--border); border-radius: 10px; }
+.remove { border: 1px solid #ef4444; color: #ef4444; background: transparent; padding: 6px 10px; border-radius: 8px; }
+.remove:hover { background: rgba(239,68,68,0.08); }

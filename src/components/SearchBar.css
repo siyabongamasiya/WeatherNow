@@ -1,0 +1,18 @@
+.searchbar { display: flex; gap: 8px; width: 100%; }
+.search-input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+.search-input:focus { outline: 2px solid var(--primary); }
+.search-btn {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--primary);
+  background: var(--primary);
+  color: white;
+}
+.search-btn:hover { filter: brightness(1.05); }

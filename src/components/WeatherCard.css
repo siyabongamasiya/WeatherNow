@@ -1,0 +1,7 @@
+.weather-card { padding: 12px; width: 160px; }
+.wc-top { display: flex; align-items: center; justify-content: space-between; }
+.wc-time { font-weight: 600; color: var(--muted); }
+.wc-icon { font-size: 24px; }
+.wc-bottom { margin-top: 8px; display: grid; gap: 4px; }
+.wc-temp { font-size: 20px; font-weight: 700; }
+.wc-cond { color: var(--muted); font-size: 14px; }
