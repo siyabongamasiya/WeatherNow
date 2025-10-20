@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <ThemeProvider>
       <SettingsProvider>
         <LocationProvider>
-          <RouterProvider router={router} />
+          <RouterProvider router={router} /> 
         </LocationProvider>
       </SettingsProvider>
     </ThemeProvider>
